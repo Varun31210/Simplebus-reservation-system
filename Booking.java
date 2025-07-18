@@ -9,7 +9,7 @@ public class Booking {
 
     Booking(){
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter name of the passenger: ");
+        System.out.println("Enter name of the customer: ");
         this.PassengerName = in.nextLine();
         System.out.println("Enter bus no: ");
         this.busNo = in.nextInt();
